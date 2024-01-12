@@ -1,0 +1,223 @@
+*{
+
+    transition:all 0.2s ease-in-out;
+
+
+}
+
+body{
+
+    background-color: rgba(231, 231, 231, 0.389);
+    font-family:"Roboto";
+    font-size:35px;
+    margin:0px;
+    padding:0px;
+    height:auto;
+
+
+}
+#main-title-div{
+
+    display:flex;
+    justify-content: right;
+    font-weight:400;
+    font-size:18px;
+
+}
+
+#main-title,
+#main-title-CN,
+#main-title-EN
+{
+
+    padding-top:10px;
+    padding-right:10px;
+    color:rgb(209, 209, 209);
+    
+
+}
+#main-title-EN{
+
+    padding-right:30px;
+
+}
+#main-title{
+
+    color:rgb(209, 209, 209);
+}
+
+#main-title-CN,
+#main-title-EN:hover{
+
+    
+    cursor:pointer;
+
+}
+
+#main-title-CN:hover{
+
+    color:white;
+
+}
+#main-title-EN:hover{
+
+    color:white;
+
+}
+
+.Clickable{
+
+    cursor:pointer;
+
+}
+
+.Header-buttons{
+    
+    width: 130px;
+    height: 130px;
+    border: 2px solid none;
+    border-radius:100%;
+    display:inline-block;
+    margin-left:8px;
+    margin-right:8px;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    margin-bottom:10px;
+    
+
+}
+
+.Header-buttons:hover{
+
+    cursor:pointer;
+    background-color: rgb(45, 45, 45);
+
+
+}
+
+.Header-buttons-index:hover{
+
+    color:rgb(209, 209, 209);
+
+}
+
+.Header-buttons-index{
+
+    
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size:15px;
+    padding-top:55px;
+    width:130px;
+    height:55px;
+    margin:0px;
+    margin-bottom:10px;
+    border-radius:100%;
+    padding-bottom:20px;
+    
+}
+
+.Header-buttons-bottom{
+
+    font-size:20px;
+    margin-right:20px;
+    margin-left:10px;
+    width:220px;
+    text-align: center;
+    display:inline-block;
+    color:white;
+    font-size:16px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:10px;
+    background-color: rgb(33, 33, 33);
+    border-radius:4px;
+
+}
+
+.Header-buttons-bottom:hover{
+
+    cursor:pointer;
+    background-color: rgb(45, 45, 45);
+    color:rgb(209, 209, 209);
+    
+
+}
+
+#Scroll-down{
+
+    color:rgb(209, 209, 209);
+    margin-top:100px;
+    font-size:15px;
+    animation-name: "Scroll-down";
+    animation:Scroll-down 1s infinite reverse;
+
+}
+
+@keyframes Scroll-down {
+    
+    0%{
+        color:rgb(114, 114, 114);
+        opacity:100%;
+
+    }
+    25%{
+
+        opacity:75%;
+    }
+    50%{
+
+        opacity:50%;
+
+    }
+    75%{
+
+        opacity:25%;
+
+    }
+    100%{
+
+        opacity:0%;
+
+
+    }
+}
+
+.body-elements{
+
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    width:220px;
+    height:200px;
+    display:inline-block;
+    margin:0px 12px 10px 12px;
+    margin-bottom:35px;
+
+}
+
+.body-elements:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+    
+
+}
+.body-element-link{
+
+
+    color:rgb(28, 28, 28);
+    font-size:20px;
+    margin-top:85px;
+    list-style: none;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    
+
+}
+.body-element-link:hover{
+
+    cursor:pointer;
+
+}
+
