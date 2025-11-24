@@ -1,2 +1,2 @@
 # Wechat-project
-a recreated of WeChat Website
+A Recreated of WeChat Website
